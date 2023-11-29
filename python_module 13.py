@@ -1,4 +1,4 @@
-"""from flask import Flask, jsonify
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
@@ -19,10 +19,10 @@ def check_prime(num):
     return jsonify(result)
 
 if __name__ == '__main__':
-    app.run(debug=True)"""
+    app.run(debug=True)
 
 
-from flask import Flask, jsonify
+"""from flask import Flask, jsonify
 
 app = Flask(__name__)
 
@@ -48,5 +48,5 @@ def get_airport_info(icao_code):
         return jsonify({"error": "Airport not found"}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True)"""
 

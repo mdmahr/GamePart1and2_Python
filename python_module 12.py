@@ -1,4 +1,4 @@
-"""import requests
+import requests
 
 def get_random_chuck_norris_joke():
     api_url = "https://api.chucknorris.io/jokes/random"
@@ -22,10 +22,10 @@ def main():
         print("Failed to fetch Chuck Norris joke.")
 
 if __name__ == "__main__":
-    main()"""
+    main()
 
 
-import requests
+"""import requests
 
 def kelvin_to_celsius(kelvin):
     return kelvin - 273.15
@@ -66,5 +66,5 @@ def main():
         print(f"Temperature: {temperature_celsius:.2f}°C")
 
 if __name__ == "__main__":
-    main()
+    main()"""
 
